@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-04-01T04:48:57.960681",
+  "tasks": [
+    {
+      "id": "daily_briefing",
+      "name": "Daily Briefing",
+      "description": "Generate daily CEO briefing",
+      "schedule": "daily 08:00",
+      "command": "python scripts/briefing_generator.py --type daily",
+      "priority": "high",
+      "enabled": true,
+      "last_run": null,
+      "next_run": "2026-04-01T08:00:00",
+      "run_count": 0,
+      "fail_count": 0
+    },
+    {
+      "id": "process_needs_action",
+      "name": "Process Needs Action",
+      "description": "Process pending items in Needs_Action folder",
+      "schedule": "*/30 * * * *",
+      "command": "python scripts/plan_generator.py",
+      "priority": "high",
+      "enabled": true,
+      "last_run": null,
+      "next_run": "2026-04-01T05:00:00",
+      "run_count": 0,
+      "fail_count": 0
+    },
+    {
+      "id": "update_dashboard",
+      "name": "Update Dashboard",
+      "description": "Update Dashboard.md with current status",
+      "schedule": "*/15 * * * *",
+      "command": "python scripts/dashboard_updater.py",
+      "priority": "medium",
+      "enabled": true,
+      "last_run": null,
+      "next_run": "2026-04-01T05:00:00",
+      "run_count": 0,
+      "fail_count": 0
+    },
+    {
+      "id": "weekly_audit",
+      "name": "Weekly Business Audit",
+      "description": "Generate weekly business and accounting audit",
+      "schedule": "weekly sunday 22:00",
+      "command": "python scripts/briefing_generator.py --type weekly",
+      "priority": "high",
+      "enabled": true,
+      "last_run": null,
+      "next_run": "2026-04-05T22:00:00",
+      "run_count": 0,
+      "fail_count": 0
+    },
+    {
+      "id": "cleanup_old_files",
+      "name": "Cleanup Old Files",
+      "description": "Archive old completed tasks",
+      "schedule": "daily 03:00",
+      "command": "python scripts/cleanup_archiver.py",
+      "priority": "low",
+      "enabled": true,
+      "last_run": null,
+      "next_run": "2026-04-02T03:00:00",
+      "run_count": 0,
+      "fail_count": 0
+    },
+    {
+      "id": "health_check",
+      "name": "System Health Check",
+      "description": "Check all watchers and services are running",
+      "schedule": "hourly",
+      "command": "python scripts/health_check.py",
+      "priority": "critical",
+      "enabled": true,
+      "last_run": null,
+      "next_run": "2026-04-01T05:00:00",
+      "run_count": 0,
+      "fail_count": 0
+    }
+  ]
+}

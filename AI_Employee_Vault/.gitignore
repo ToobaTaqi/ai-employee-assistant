@@ -1,0 +1,54 @@
+# AI Employee Vault - Git Ignore
+
+## Credentials & Secrets (NEVER commit these)
+credentials/
+.env
+*.pem
+*.key
+
+## Session Data
+credentials/whatsapp_session/
+credentials/linkedin_session/
+credentials/gmail_token.json
+
+## Logs
+logs/*.log
+logs/audit/*.jsonl
+logs/errors/*.json
+logs/whatsapp_debug/
+
+## Processing & Temporary Files
+Processing/*.json
+Processing/*.tmp
+*.pyc
+__pycache__/
+*.pyc
+
+## Test Files
+TEST_*.md
+test_*.txt
+debug_*.md
+
+## OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+## Optional: Large data files
+Accounting/Transactions_*.md
+Briefings/archive/
+
+## Keep these folders but ignore contents
+Inbox/*
+!Inbox/.gitkeep
+Needs_Action/*
+!Needs_Action/.gitkeep
+Done/*
+!Done/.gitkeep

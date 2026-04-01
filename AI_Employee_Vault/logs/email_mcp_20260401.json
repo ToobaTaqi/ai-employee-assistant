@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2026-04-01T05:23:33.245070",
+    "action_type": "email_draft_created",
+    "actor": "email_mcp_server",
+    "parameters": {
+      "to": "test@gmail.com",
+      "subject": "Test Draft After Fix",
+      "draft_id": "r2280397260487678515"
+    },
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-04-01T05:23:33.313687",
+    "action_type": "email_draft_created",
+    "actor": "email_mcp_server",
+    "parameters": {
+      "to": "test@gmail.com",
+      "subject": "Test Draft After Fix",
+      "draft_id": "r-5187648518404812553"
+    },
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-04-01T05:24:18.186927",
+    "action_type": "email_draft_created",
+    "actor": "email_mcp_server",
+    "parameters": {
+      "to": "test@gmail.com",
+      "subject": "Test",
+      "draft_id": "r4227584505661697901"
+    },
+    "result": "success"
+  },
+  {
+    "timestamp": "2026-04-01T05:25:32.668149",
+    "action_type": "email_draft_created",
+    "actor": "email_mcp_server",
+    "parameters": {
+      "to": "test@gmail.com",
+      "subject": "Test Draft After Fix V2",
+      "draft_id": "r2252801629682764601"
+    },
+    "result": "success"
+  }
+]

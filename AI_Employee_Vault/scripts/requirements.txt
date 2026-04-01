@@ -1,0 +1,29 @@
+# AI Employee Watcher Dependencies
+
+# Core dependencies
+watchdog>=3.0.0  # File system monitoring
+
+# Gmail Watcher dependencies
+google-auth>=2.0.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.0.0
+
+# WhatsApp Watcher dependencies
+playwright>=1.40.0
+
+# MCP Server dependencies
+mcp>=1.0.0
+uvicorn>=0.30.0
+pydantic>=2.0.0
+
+# Odoo Integration (Gold Tier)
+requests>=2.30.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Utilities
+python-dateutil>=2.8.0

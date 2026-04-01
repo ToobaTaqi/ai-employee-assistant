@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "73247e5d0d5e4649",
+    "type": "split",
+    "children": [
+      {
+        "id": "fabf5208e97190c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1b90872316297b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "testing_guide/03_briefing_generator.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03_briefing_generator"
+            }
+          },
+          {
+            "id": "04d2015e500e9abf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Briefings/2026-04-01_Daily_Briefing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-01_Daily_Briefing"
+            }
+          },
+          {
+            "id": "c108f7d1b0258302",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd95702fbe12ed43",
+    "type": "split",
+    "children": [
+      {
+        "id": "3172434c5df49e91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea152c0d39d48561",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8049e95c2787b263",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8d39ba4e46e67821",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7a38a88186b5bd77",
+    "type": "split",
+    "children": [
+      {
+        "id": "02f540062ee2ef7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9f4f6b1b73269c4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dashboard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Dashboard"
+            }
+          },
+          {
+            "id": "4e8c809d7a797d38",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dashboard.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Dashboard"
+            }
+          },
+          {
+            "id": "5d866210780e8f22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "859696f67619e42e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "29e69e2b0386f5f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dashboard.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ea152c0d39d48561",
+  "lastOpenFiles": [
+    "GIT_PUSH_CHECKLIST.md",
+    "GITHUB_README.md",
+    "credentials/linkedin_session/Safe Browsing",
+    "credentials/linkedin_session/Default/Shared Dictionary/cache/index-dir/the-real-index",
+    "credentials/linkedin_session/Default/Shared Dictionary/cache/index-dir",
+    "credentials/linkedin_session/Default/Shared Dictionary/cache/index",
+    "credentials/linkedin_session/Default/Shared Dictionary/cache",
+    "logs/error_recovery_20260401.log",
+    "logs/ralph_result_20260401_064400.json",
+    "logs/ralph_result_20260401_063817.json",
+    "Processing/ralph_state.json",
+    "logs/ralph_wiggum_20260401.log",
+    "Needs_Action/TEST_Ralph_Task.md",
+    "Social_Media/LinkedIn/Drafts/LinkedIn_Draft_20260401_062218.md",
+    "testing_guide/09_linkedin_poster_NEW.md",
+    "credentials/linkedin_login_success.png",
+    "Needs_Action/EMAIL_Temutemu_Youvebeenselected_19874860_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_ToobaTaqiPricedropsonyourfaves_198928f9_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_PleaseConfirmYour𝐌𝐲𝐬𝐭𝐞𝐫𝐲𝐎𝐟𝐟𝐞𝐫_198a729c_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_OhheyyToobaTaImabsolutelyspeechless_198b2_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_ThanksATon_198bc9fc_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_CongratulationsYouvebeenpicked_198c60ed_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_Wethinkyoulllovethis_198db833_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_Congratulations_198e4f41_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_Justforyoureyes_198f01ce_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_Thankyouforbeingsoincredible_1992d0e2_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_ThankYouforBeingIncredible_19932332_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_CongratsYoufoundit_19933115_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_YouDefinitelyHaveaGoodEyes_1993c815_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_Itsalmostsoldout_1993d5cc_20260401_053138.md",
+    "Needs_Action/EMAIL_Temutemu_ClearanceDeals_19946ce3_20260401_053138.md",
+    "Needs_Action/EMAIL_eHunarHunarmandKamya_LoginNowCompleteYourAdmission_20260401_053138.md",
+    "Needs_Action/EMAIL_n8nionoreply_Verifyyourn8naccount_19ba4d7e_20260401_053138.md",
+    "Needs_Action/EMAIL_Googlenoreply_Criticalsecurityalert_19bd65b3_20260401_053138.md",
+    "Needs_Action/EMAIL_Googlenoreply_Criticalsecurityalert_19bd65f8_20260401_053138.md",
+    "Needs_Action/EMAIL_Pinterestpinbot_SorryWehadtodisableaccesstooneofyo_20260401_053138.md",
+    "Needs_Action/EMAIL_Zoomnoreply_GenerativeAIMastermindConfirmation_19c_20260401_053138.md"
+  ]
+}
