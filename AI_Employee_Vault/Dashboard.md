@@ -1,7 +1,7 @@
 ---
-type: dashboard
 last_updated: 2026-04-01T04:49:47.519698
 status: active
+version: 1
 ---
 
 # AI Employee Dashboard

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-01T04:48:57.960681",
+  "last_updated": "2026-04-10T10:49:38.884674",
   "tasks": [
     {
       "id": "daily_briefing",
@@ -11,7 +11,7 @@
       "priority": "high",
       "enabled": true,
       "last_run": null,
-      "next_run": "2026-04-01T08:00:00",
+      "next_run": "2026-04-11T08:00:00",
       "run_count": 0,
       "fail_count": 0
     },
@@ -24,7 +24,7 @@
       "priority": "high",
       "enabled": true,
       "last_run": null,
-      "next_run": "2026-04-01T05:00:00",
+      "next_run": "2026-04-10T11:00:00",
       "run_count": 0,
       "fail_count": 0
     },
@@ -37,7 +37,7 @@
       "priority": "medium",
       "enabled": true,
       "last_run": null,
-      "next_run": "2026-04-01T05:00:00",
+      "next_run": "2026-04-10T11:00:00",
       "run_count": 0,
       "fail_count": 0
     },
@@ -50,7 +50,7 @@
       "priority": "high",
       "enabled": true,
       "last_run": null,
-      "next_run": "2026-04-05T22:00:00",
+      "next_run": "2026-04-12T22:00:00",
       "run_count": 0,
       "fail_count": 0
     },
@@ -63,7 +63,7 @@
       "priority": "low",
       "enabled": true,
       "last_run": null,
-      "next_run": "2026-04-02T03:00:00",
+      "next_run": "2026-04-11T03:00:00",
       "run_count": 0,
       "fail_count": 0
     },
@@ -76,7 +76,7 @@
       "priority": "critical",
       "enabled": true,
       "last_run": null,
-      "next_run": "2026-04-01T05:00:00",
+      "next_run": "2026-04-10T11:00:00",
       "run_count": 0,
       "fail_count": 0
     }

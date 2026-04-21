@@ -4,53 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "fabf5208e97190c1",
+        "id": "bae39a4275e93d30",
         "type": "tabs",
         "children": [
           {
-            "id": "f1b90872316297b5",
+            "id": "2beb2b6c652b4842",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "testing_guide/03_briefing_generator.md",
-                "mode": "source",
-                "source": false
+                "file": "logs/whatsapp_debug/whatsapp_20260331_100915.png"
               },
-              "icon": "lucide-file",
-              "title": "03_briefing_generator"
+              "icon": "lucide-image",
+              "title": "whatsapp_20260331_100915"
             }
           },
           {
-            "id": "04d2015e500e9abf",
+            "id": "507b5aada267488a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Briefings/2026-04-01_Daily_Briefing.md",
+                "file": "Company_Handbook.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-01_Daily_Briefing"
+              "title": "Company_Handbook"
             }
           },
           {
-            "id": "c108f7d1b0258302",
+            "id": "c8fef304ec392cec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dashboard.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "7a38a88186b5bd77",
@@ -123,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboard.md",
+                "file": "logs/whatsapp_debug/whatsapp_20260331_100915.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +126,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dashboard"
+              "title": "Backlinks for whatsapp_20260331_100915"
             }
           },
           {
@@ -193,12 +186,25 @@
               "icon": "lucide-list",
               "title": "Outline of Dashboard"
             }
+          },
+          {
+            "id": "ed6ba0ea9025bf88",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "logs/whatsapp_debug/whatsapp_20260331_100915.png"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for whatsapp_20260331_100915"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -212,44 +218,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "ea152c0d39d48561",
+  "active": "2beb2b6c652b4842",
   "lastOpenFiles": [
-    "GIT_PUSH_CHECKLIST.md",
-    "GITHUB_README.md",
-    "credentials/linkedin_session/Safe Browsing",
-    "credentials/linkedin_session/Default/Shared Dictionary/cache/index-dir/the-real-index",
-    "credentials/linkedin_session/Default/Shared Dictionary/cache/index-dir",
-    "credentials/linkedin_session/Default/Shared Dictionary/cache/index",
-    "credentials/linkedin_session/Default/Shared Dictionary/cache",
-    "logs/error_recovery_20260401.log",
-    "logs/ralph_result_20260401_064400.json",
-    "logs/ralph_result_20260401_063817.json",
-    "Processing/ralph_state.json",
-    "logs/ralph_wiggum_20260401.log",
-    "Needs_Action/TEST_Ralph_Task.md",
-    "Social_Media/LinkedIn/Drafts/LinkedIn_Draft_20260401_062218.md",
-    "testing_guide/09_linkedin_poster_NEW.md",
-    "credentials/linkedin_login_success.png",
-    "Needs_Action/EMAIL_Temutemu_Youvebeenselected_19874860_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_ToobaTaqiPricedropsonyourfaves_198928f9_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_PleaseConfirmYour𝐌𝐲𝐬𝐭𝐞𝐫𝐲𝐎𝐟𝐟𝐞𝐫_198a729c_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_OhheyyToobaTaImabsolutelyspeechless_198b2_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_ThanksATon_198bc9fc_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_CongratulationsYouvebeenpicked_198c60ed_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_Wethinkyoulllovethis_198db833_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_Congratulations_198e4f41_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_Justforyoureyes_198f01ce_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_Thankyouforbeingsoincredible_1992d0e2_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_ThankYouforBeingIncredible_19932332_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_CongratsYoufoundit_19933115_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_YouDefinitelyHaveaGoodEyes_1993c815_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_Itsalmostsoldout_1993d5cc_20260401_053138.md",
-    "Needs_Action/EMAIL_Temutemu_ClearanceDeals_19946ce3_20260401_053138.md",
-    "Needs_Action/EMAIL_eHunarHunarmandKamya_LoginNowCompleteYourAdmission_20260401_053138.md",
-    "Needs_Action/EMAIL_n8nionoreply_Verifyyourn8naccount_19ba4d7e_20260401_053138.md",
-    "Needs_Action/EMAIL_Googlenoreply_Criticalsecurityalert_19bd65b3_20260401_053138.md",
-    "Needs_Action/EMAIL_Googlenoreply_Criticalsecurityalert_19bd65f8_20260401_053138.md",
-    "Needs_Action/EMAIL_Pinterestpinbot_SorryWehadtodisableaccesstooneofyo_20260401_053138.md",
-    "Needs_Action/EMAIL_Zoomnoreply_GenerativeAIMastermindConfirmation_19c_20260401_053138.md"
+    "QUICK_START.md",
+    "Dashboard.md",
+    "Needs_Action/FILE_Invoicetxttxt_047a6501_20260410_095156.md",
+    "Processing/Invoice.txt.txt",
+    "Needs_Action/FILE_Invoicetxt1txt_047a6501_20260410_095156.md",
+    "Processing/Invoice.txt 1.txt",
+    "Inbox/Invoice.txt 1.txt",
+    "Inbox/Invoice.txt.txt",
+    "Company_Handbook.md",
+    "Needs_Action/EMAIL_Temutemu_Congratulations_198e4f41_20260410_094453.md",
+    "Needs_Action/EMAIL_Temutemu_Justforyoureyes_198f01ce_20260410_094453.md",
+    "Needs_Action/EMAIL_Temutemu_Thankyouforbeingsoincredible_1992d0e2_20260410_094453.md",
+    "Needs_Action/EMAIL_Temutemu_ThankYouforBeingIncredible_19932332_20260410_094453.md",
+    "Needs_Action/EMAIL_Temutemu_CongratsYoufoundit_19933115_20260410_094453.md",
+    "Needs_Action/EMAIL_Temutemu_YouDefinitelyHaveaGoodEyes_1993c815_20260410_094453.md",
+    "Needs_Action/EMAIL_Temutemu_Itsalmostsoldout_1993d5cc_20260410_094453.md",
+    "Needs_Action/EMAIL_Temutemu_ClearanceDeals_19946ce3_20260410_094453.md",
+    "Needs_Action/EMAIL_eHunarHunarmandKamya_LoginNowCompleteYourAdmission_20260410_094453.md",
+    "Needs_Action/EMAIL_eHunarHunarmandKamya_ApplicationReceivedAttemptthe_20260410_094453.md",
+    "Needs_Action/EMAIL_eHunarHunarmandKamya_EntryTestInstructions_19994f0_20260410_094453.md",
+    "Needs_Action/EMAIL_eHunarHunarmandKamya_Entrytestresultunderevaluatio_20260410_094453.md",
+    "Needs_Action/EMAIL_eHunarHunarmandKamya_EntryTestResultehunar-Hunarma_20260410_094453.md",
+    "Needs_Action/EMAIL_MUHAMMADAIZAZviaLink_MUHAMMADjustmessagedyou_199a5_20260410_094453.md",
+    "Needs_Action/EMAIL_Facebooksecurity_Yourpasswordhasbeenchanged_199b64_20260410_094453.md",
+    "Needs_Action/EMAIL_Etsymail_GreatnewsyoureenrolledinEtsyPayments_19a1_20260410_094453.md",
+    "Needs_Action/EMAIL_Temutemu_ThankYouforBeingIncredible_19a76a3f_20260410_094453.md",
+    "Needs_Action/EMAIL_ShabbirTaqishabbirta__19ad5745_20260410_094453.md",
+    "Needs_Action/EMAIL_Instagramsecurity_NewlogintoInstagramfromInstagram_20260410_094453.md",
+    "Needs_Action/EMAIL_Fiverrnoreply_ResolvedIssueaffectinghowyouseeyourm_20260410_094453.md",
+    "Needs_Action/EMAIL_Fiverrnoreply_Youvegotnewmessagesfromtaylor_25629j_20260410_094453.md",
+    "logs/gmailwatcher_20260410.log",
+    "logs/approval_orchestrator_20260410.log",
+    "logs/task_scheduler_20260410.log",
+    "Processing/Urgent_Invoice.txt",
+    "logs/filesystemwatcher_20260410.log",
+    "Inbox/Urgent_Invoice.txt",
+    "credentials/linkedin_login_success.png"
   ]
 }

@@ -1,0 +1,78 @@
+To show all features working seamlessly in a live demo, no, the 2 commands are not enough. You need to run a few
+    more background "engines" so that every feature triggers automatically when you interact with Obsidian.
+
+    Here is the exact setup to make the entire system work live while you only touch Obsidian and File Explorer.
+
+    ---
+
+    ⚙️ The "Background Engines" (Run these once, then minimize)
+
+    Open 4 separate terminals (or VS Code tabs), run these commands, and leave them running in the background:
+
+
+    ┌──────────────────┬─────────────────────────────────────────┬─────────────────────────────────────────────────┐
+    │ Terminal         │ Command                                 │ What it does during demo                        │
+    ├──────────────────┼─────────────────────────────────────────┼─────────────────────────────────────────────────┤
+    │ 1. The Brain     │ python task_scheduler.py --daemon       │ Updates Dashboard & creates Briefings automa... │
+    │ **2. The Eyes (... │ python filesystem_watcher.py            │ Instantly detects files dropped in Inbox        │
+    │ 3. The Hands     │ `python approval_orchestrator.py --i... │ Executes approved tasks (moves to Done, logs... │
+    │ **4. The Eyes (... │ python gmail_watcher.py (Optional)      │ Detects new Gmails & creates action files       │
+    └──────────────────┴─────────────────────────────────────────┴─────────────────────────────────────────────────┘
+
+
+    (Note: Skip WhatsApp for the live demo unless your session is active and stable. It requires a visible browser and
+     can break the "no-code" illusion.)
+
+    ---
+
+    🎥 The Live Demo Flow (What to Show)
+
+    Once those 4 terminals are running minimized, you never touch code again. Here's exactly how to demonstrate every
+    feature:
+
+    🟢 Step 1: Show the "Active" System
+     * Action: Open Dashboard.md in Obsidian.
+     * Say: "The system is running. The dashboard updates itself every 15 minutes."
+     * (Behind the scenes, Terminal 1 is keeping this alive.)
+
+    🟢 Step 2: File Drop Detection (The "Magic" Moment)
+     * Action: Drag a file (e.g., Invoice.txt) into the Inbox folder.
+     * Wait 3 seconds.
+     * Action: Refresh Obsidian. Open Needs_Action. Show the newly created action file.
+     * Say: "The AI detected the file, read it, and created a task automatically."
+     * (Behind the scenes, Terminal 2 caught the file drop.)
+
+    🟢 Step 3: Human-in-the-Loop Approval
+     * Action: Open the action file in Needs_Action. Show that it says status: pending.
+     * Action: Drag that file from Needs_Action to Pending_Approval.
+     * Say: "For sensitive tasks, the AI pauses and waits for my approval."
+     * Action: Drag the file from Pending_Approval to Approved.
+     * (Behind the scenes, Terminal 3 detects the move and will execute it.)
+
+    🟢 Step 4: Automatic Execution
+     * Wait 5 seconds.
+     * Action: Open the Done folder. Show the file has appeared there automatically.
+     * Say: "Once approved, the AI executed the task, logged it, and moved it to 'Done'. No manual work required."
+     * (Behind the scenes, Terminal 3 handled this.)
+
+    🟢 Step 5: The CEO Briefing (Output)
+     * Action: Open Briefings/2026-04-01_Daily_Briefing.md.
+     * Say: "Finally, it generates executive summaries so I always know what's happening in my business."
+     * (Behind the scenes, Terminal 1 generates these on schedule.)
+
+    ---
+
+    💡 Pro Tips for a Flawless Video
+
+     1. Pre-populate the folders: Before recording, put 1-2 fake files in Done/ and Briefings/ so the folders don't look
+        empty.
+     2. Use a simple test file: Create a text file named Urgent_Payment_Request.txt with content: "Please pay vendor
+        $5,000 for services. URGENT." This guarantees the AI flags it as high priority.
+     3. Hide the terminals: Place them on a second monitor, or minimize them to the taskbar. The client should only see
+        Obsidian and File Explorer.
+     4. Skip Live Gmail if untested: If you haven't successfully authenticated Gmail API yet, don't risk it live. Just
+        say: "It also monitors Gmail automatically, but I'll show you the file workflow today since it's the core of the
+        system."
+
+    With those 4 terminals running in the background, the entire system will feel like a polished desktop app. You
+    just click, drag, and watch the magic happen in Obsidian! 🚀

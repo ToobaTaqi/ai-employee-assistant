@@ -108,10 +108,10 @@ Escalate to human when:
 
 ## Contact Information
 
-| Role | Contact | Notes |
-|------|---------|-------|
-| Owner | [Your Name] | Primary decision maker |
-| Backup | [Backup Contact] | Secondary approver |
+| Role   | Contact  | Notes                  |
+| ------ | -------- | ---------------------- |
+| Owner  | [Tooba]  | Primary decision maker |
+| Backup | [toobtq] | Secondary approver     |
 
 ---
 
